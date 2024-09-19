@@ -93,8 +93,8 @@ const Courses = () => {
     },
     {
       id: 4,
-      src: mlimg,
-      title: "Machine Learning",
+      src: blockchainimg,
+      title: "Block Chain",
       description: (
         <ul className="list-disc pl-5">
           <li>Introduction to Blockchain: Fundamentals of decentralized ledger technology.</li>
@@ -126,12 +126,12 @@ const Courses = () => {
           {courses.map(({ id, src, title, description }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 hover:scale-105 hover:shadow-amber-400 duration-500 rounded-lg"
+              className="shadow-md hover:z-30 shadow-gray-600 hover:scale-105 hover:shadow-amber-400 duration-500 rounded-lg overflow-hidden"
             >
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 h-fit w-full"
+                className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
               />
 
               <div className="flex items-center justify-center">

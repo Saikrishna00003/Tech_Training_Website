@@ -60,7 +60,6 @@ const Courses = () => {
           <li>Supervised Learning: Techniques for building models that make predictions based on labeled data.</li>
           <li>Unsupervised Learning: Methods for uncovering patterns in data without predefined labels.</li>
           <li>Deep Learning: Advanced models using neural networks for complex tasks.</li>
-          <li>Applications: Practical uses of machine learning in various industries.</li>
         </ul>
       ),    },
     {

@@ -12,7 +12,7 @@ const Trainers = () => {
       heading: "FULL STACK DEVELOPER",
       description: "Skilled in HTML, CSS, TailwindCSS, JavaScript, React.js, MySQL, Java, and Spring Boot, the trainer guides students through full-stack development, preparing them for real-world projects.",
       child: (
-        <div className="flex justify-center space-x-4 mt-4">
+        <div className="flex justify-center space-x-4 mt-4 social-icon">
           <a
             href="https://www.linkedin.com/in/gvsaikrishna"
             target="_blank"
